@@ -1,0 +1,78 @@
+/*
+
+Design settings:
+
+--- 01 TYPOGRAPHY SYSTEM (px)
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights:
+Default: 500
+Medium:
+Semi-bold:
+Bold: 700
+
+- Line heights:
+Default: 1
+Small: 1.05
+Medium:
+Paragraph default: 1.7
+
+
+- Letter spacing:
+Heading letter spacing:
+Subheading letter spacing: 6px
+
+--- 02 COLORS
+(Primary with tints, shades and accent colors)
+
+- Primary:
+- Tints:
+- Shades:
+- Accents:
+- Greys:
+  - very dark:
+  - dark:
+  - very light:
+- White:
+
+--- 03 IMAGES
+- No system
+
+--- 04 ICONS
+- source: https://heroicons.com/
+
+--- 05 SHADOWS
+- No system
+
+--- 06 BORDER RADIUS
+- Default: 8px
+- Medium:
+
+--- 07 WHITESPACE
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/*
+font-family: '', sans-serif;
+font-family: '', serif;
+*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* 10 / 16px */
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+}
